@@ -13,7 +13,7 @@ body {
 }
 
 #card {
-    background-color: rgb(236, 236, 236);
+    background-color: #ececec;
 
     width: 600px;
 
@@ -24,12 +24,38 @@ body {
     box-shadow: 0px 10px 3px rgba(0, 0, 0, 0.15);
 }
 
+#fotoPerfil {
+    width: 200px;
+
+    border-radius: 50%;
+
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.20);
+}
+
+#sobreMim {
+    display: none;
+
+    align-items: flex-start;
+
+    gap: 20px;
+
+    margin-top: 20px;
+
+    text-align: left;
+
+    width: 500px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+}
+
 h1 {
     margin-bottom: 20px;
 }
 
 button {
-    background-color: #2563eb;
+    background-color: #2353bb;
 
     color: white;
 
@@ -67,8 +93,80 @@ button:active {
     box-shadow: 10px 12px 3px rgba(0,0,0,0.20);
 }
 
+
+
 ul {
     list-style: none;
 
+    background-color: #e8e8e8;
+    
+    border-radius: 10px;
+
     padding: 0;
+    
+    text-align: center;
+    
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+}
+
+#listaDeProjetos {
+   
+    list-style: none;
+
+    background-color: #e8e8e8;
+
+    width: 550px;
+
+    padding: 20px;
+
+    padding-top: 10px;
+
+    border-radius: 15px;
+
+    box-shadow: 0px 10px 3px rgba(0, 0, 0, 0.15);
+}
+
+#listaDeProjetos li {
+    display: inline-block;
+
+    background-color: #ffffff;
+
+    color: #222222;
+
+    padding: 5px 10px;
+
+    border-radius: 20px;
+
+    margin: 5px;
+}
+
+#listaTecnologias {
+    
+    display: inline-block;
+
+    background-color: #e8e8e8;
+
+    color: white;
+
+    padding: 5px 10px;
+
+    border-radius: 20px;
+
+    margin: 5px;
+
+    box-shadow: 0px 10px 3px rgba(0, 0, 0, 0.15);
+}
+
+#listaTecnologias li {
+    display: inline-block;
+
+    background-color: #2563eb;
+
+    color: white;
+
+    padding: 5px 10px;
+
+    border-radius: 20px;
+
+    margin: 5px;
 }
